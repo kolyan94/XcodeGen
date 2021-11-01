@@ -9,6 +9,7 @@ let package = Package(
         .executable(name: "xcodegen", targets: ["XcodeGen"]),
         .library(name: "XcodeGenKit", targets: ["XcodeGenKit"]),
         .library(name: "ProjectSpec", targets: ["ProjectSpec"]),
+        .library(name: "XcodeGenCLI", targets: ["XcodeGenCLI"])
     ],
     dependencies: [
         .package(url: "https://github.com/kylef/PathKit.git", from: "1.0.1"),
